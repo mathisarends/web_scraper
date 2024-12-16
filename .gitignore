@@ -1,0 +1,35 @@
+# Virtuelle Umgebung
+venv/
+.env/
+
+# Byte-compiled / optimierte / Cache-Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs und Debugging
+*.log
+*.out
+*.err
+
+# Betriebssystem-Spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# IDEs und Editoren
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest Cache
+.pytest_cache/
+
+# Andere
+.env  # falls du Umgebungsvariablen-Dateien nutzt
+*.bak
