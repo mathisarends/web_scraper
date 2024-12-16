@@ -24,7 +24,7 @@ class LLmSummarizer:
     
     def user_prompt_for(self, website):
         """Generates a user prompt based on the website content."""
-        return f"Please summarize the following website content:\n\n{website.text}"
+        return f"Please summarize the following website content: Emphasize the news on the web page\n\n{website.text}"
         
     def summarize(self, website_url):
         website = WebScraper(website_url)
@@ -35,5 +35,5 @@ class LLmSummarizer:
         return response.choices[0].message.content
         
 llmSummarizer = LLmSummarizer()
-summary = llmSummarizer.summarize(website_url = "https://edwarddonner.com")
+summary = llmSummarizer.summarize(website_url = "https://openai.com/")
 print(summary)
