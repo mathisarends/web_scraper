@@ -31,5 +31,5 @@ Thumbs.db
 .pytest_cache/
 
 # Andere
-.env  # falls du Umgebungsvariablen-Dateien nutzt
+.env  
 *.bak
